@@ -133,7 +133,6 @@ p {
   position: absolute;
   min-width: 100%;
 }
-.messagedefilant div span, 
 .messagedefilant div:after {
   position: relative;
   display: inline-block;
@@ -141,18 +140,12 @@ p {
   white-space: nowrap;
   top:0;
 }
- 
-.messagedefilant div span {
-  animation: defilement 10s infinite linear;
-  background: rgb(65, 69, 72);
-}
- 
 .messagedefilant div:after {
   position: absolute;
   top:0; left:0;
   content:attr(data-text);
   animation: defilement2 10s infinite linear;
-  background: rgb(96, 88, 80);
+  background: rgb(42, 40, 38);
 }
 @keyframes defilement {
   0% { margin-left: 0; }

@@ -98,13 +98,6 @@ p {
   justify-content: space-evenly;
   margin-top: 40px;
 }
-
-.edu,
-.skills {
-  width: 40%;
-  padding-left: 5%;
-}
-
 /* === Expérience professionnelle === */
 #container {
   width: 90%;
@@ -115,7 +108,7 @@ p {
   align-items: start;
 }
 
-/* === Images dans Expcontainer === */
+/* === Images dans container === */
 #container img {
   width: 100%;
   max-width: 200px;
@@ -201,13 +194,6 @@ p {
     flex-direction: column;
     padding-left: 5%;
   }
-
-  .edu, .skills {
-    width: 100%;
-    padding-left: 0;
-    margin-bottom: 30px;
-  }
-
   #container {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -250,4 +236,3 @@ p {
     justify-content: center;
   }
 }
-.+
